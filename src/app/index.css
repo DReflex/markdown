@@ -1,0 +1,42 @@
+.box{
+  display: flex;
+  margin:auto;
+  flex-direction: row;
+  justify-content: center;
+}
+.text{
+  width:40%;
+  margin:auto;
+  padding: 20px 15px
+
+}
+.text textarea{
+  cols: "40";
+  rows: "10";
+  width:90%;
+  height: 600px;
+  border:none;
+  border-left: 4px solid rgb(127, 217, 125);
+
+  border-radius: 10px;
+  background-color: rgb(43, 85, 32);
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+
+}
+.output{
+  width: 45%;
+  margin: auto;
+  margin-top:0px;
+  padding-left: 10px;
+  border: 2px solid rgb(53, 54, 215);
+  background: rgba(153, 228, 165, 1);
+}
+blockquote{
+  padding: 15px;
+  margin: 30px 10px;
+  border-radius: 15px;
+  background-color: rgb(29, 32, 87);
+  color:rgb(255, 255, 255)
+
+}
